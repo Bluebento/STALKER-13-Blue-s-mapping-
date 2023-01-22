@@ -1369,7 +1369,10 @@
 /area/stalker/blowout/outdoor)
 "pY" = (
 /obj/effect/step_trigger/teleporter{
-	dir = 8
+	dir = 8;
+	teleport_x = 249;
+	teleport_z = 6;
+	teleport_y = 213
 	},
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/outdoor)
@@ -2119,6 +2122,10 @@
 /obj/structure/stalker/cacheable/telescreen_broken,
 /obj/rad/rad_low,
 /turf/closed/wall/stalker/bricks_white,
+/area/stalker/blowout/outdoor)
+"zw" = (
+/obj/machinery/campfire,
+/turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "zy" = (
 /obj/rad/rad_medium,
@@ -3054,8 +3061,8 @@
 "LP" = (
 /obj/effect/step_trigger/teleporter{
 	dir = 4;
-	teleport_x = 365;
-	teleport_y = 047;
+	teleport_x = 002;
+	teleport_y = 121;
 	teleport_z = 7
 	},
 /turf/open/floor/plasteel/stairs/stalker{
@@ -4566,9 +4573,9 @@ HF
 HF
 HF
 HF
-HV
-HV
-HV
+HF
+HF
+HF
 HF
 HF
 HF
@@ -4968,9 +4975,9 @@ HF
 HF
 HF
 HF
-HV
-HV
-HV
+HF
+HF
+HF
 HF
 HF
 HF
@@ -5370,9 +5377,9 @@ HF
 HF
 HF
 HF
-HV
-HV
-HV
+HF
+HF
+HF
 HF
 HF
 HF
@@ -5772,9 +5779,9 @@ HF
 HF
 HF
 HF
-HV
-HV
-HV
+HF
+HF
+HF
 HF
 HF
 HF
@@ -6174,9 +6181,9 @@ HF
 HF
 HF
 HF
-jn
-pY
-BK
+HF
+HF
+HF
 HF
 HF
 HF
@@ -6576,9 +6583,9 @@ HF
 HF
 HF
 HF
-HV
-HV
-HV
+HF
+HF
+HF
 HF
 HF
 HF
@@ -6980,7 +6987,7 @@ HF
 rn
 HV
 HV
-HV
+HF
 HF
 HF
 HF
@@ -8989,7 +8996,7 @@ HV
 mb
 HV
 HV
-HV
+lR
 HV
 Pp
 bd
@@ -38387,7 +38394,7 @@ HV
 HV
 HV
 HV
-HV
+lR
 HV
 HV
 zm
@@ -38777,7 +38784,7 @@ HV
 HV
 HV
 HV
-zm
+zw
 HV
 zm
 zm
@@ -42010,7 +42017,7 @@ zm
 zm
 HV
 HV
-HV
+lR
 HV
 HV
 HV
